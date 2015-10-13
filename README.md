@@ -14,7 +14,7 @@ This software is based on:
  * **Python** >= 2.7
  * **PIP**
  * **virtualenv** (optional)
- * **Qt** >= 5.5
+ * **Qt Framework** >= 5.5
  * **Qt Installer Framework** >= 2.0.1
 
 ## Development
@@ -67,7 +67,7 @@ The **launcher** is a Qt-based desktop application:
 
 ## Deploy
 
-The web-app based on Django could be package in a stand-alone executable file.
+The web-app based on Django could be packaged in a stand-alone executable file.
 This executable will then be executed by the launcher to behave like a fully
 desktop executable.
 
@@ -85,10 +85,10 @@ could then be packaged, ready to be included in the installer executable.
 ### Create installer
 
 To create the installer executable, the **Qt Installer Framework** will be used.
-The following files need to be customizez according to the project info:
+The following files need to be customized according to the project info:
 
- * installer/config/config.xml
- * installer/packages/com.project.main/meta/package.xml
+ * `installer/config/config.xml`
+ * `installer/packages/com.project.main/meta/package.xml`
 
 Now the following procedure could be used to build the installer:
 
@@ -96,7 +96,7 @@ Now the following procedure could be used to build the installer:
  2. `cp dist.7z installer/packages/com.project.main/data`
  3. `<location-of-qtifw>/binarycreator --offline-only -c installer/config/config.xml -p installer/packages Setup`
 
-More info in the [official documentation][QtIF]
+For more information, see the [official documentation][QtIF].
 
 ## License
 
