@@ -1,4 +1,5 @@
-# cute-django
+![cute-django](https://avatars3.githubusercontent.com/u/15029184 "cute-django")
+===============================================================================
 
 A *QtQuick*-based launcher for *Django*-based apps.
 
