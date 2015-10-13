@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>YOURPROJECTNAME</Name>
+    <Version>0.1.0</Version>
+    <Title>YOURPROJECTNAME Installer</Title>
+    <Publisher>Your Name</Publisher>
+    <ProductUrl>https://github.com/cute-django</ProductUrl>
+    <InstallerWindowIcon>icon</InstallerWindowIcon>
+    <InstallerApplicationIcon>icon</InstallerApplicationIcon>
+    <Logo>logo.png</Logo>
+    <Watermark>watermark.png</Watermark>
+
+    <TargetDir>@HomeDir@/@Name@</TargetDir>
+    <AdminTargetDir>@RootDir@/@Name@</AdminTargetDir>
+</Installer>

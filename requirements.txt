@@ -1,0 +1,3 @@
+pip
+django>=1.8
+pyinstaller>=3.0

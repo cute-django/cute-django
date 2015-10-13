@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>@Name@ Core</DisplayName>
+    <Description>Core Package</Description>
+    <Version>0.1.0-1</Version>
+    <ReleaseDate>2015-09-30</ReleaseDate>
+    <Licenses>
+        <License name="MIT License Agreement" file="LICENSE.txt" />
+    </Licenses>
+    <Default>true</Default>
+    <ForcedInstallation>true</ForcedInstallation>
+    <Essential>true</Essential>
+    <Script>installscript.qs</Script>
+</Package>
